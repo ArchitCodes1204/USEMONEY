@@ -1,4 +1,4 @@
-# 💰 UseMoney – Assignment Submission by Archit Mamodiya
+#  UseMoney – Assignment Submission by Archit Mamodiya
 
 > A high-fidelity clone and feature extension of usemoney.ai, built as part of the pre-hire assignment.
 

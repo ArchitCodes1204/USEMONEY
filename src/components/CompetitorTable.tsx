@@ -16,7 +16,7 @@ const competitors: Competitor[] = [
   { id: '2', name: 'Moneyview', market: 'Indian', keyAIFeature: 'Tracks expenses using SMS. Shows bank balances, UPI spends, credit usage.' },
   { id: '3', name: 'ET Money', market: 'Indian', keyAIFeature: 'Offers mutual funds, insurance, SIPs, loans. Tracks spending and financial goals.' },
   { id: '4', name: 'Mint', market: 'Global', keyAIFeature: 'Popular global budgeting app. Tracks expenses, budgets, credit score, bills.' },
-  { id: '5', name: 'UseMoney', market: 'Indian', keyAIFeature: 'Personalized Holistic Wealth AI Chatbot', isMain: true },
+  { id: '5', name: 'UseMoney', market: 'Indian', keyAIFeature: 'AI-driven Portfolio Analysis — delivers instant, personalised insights on your investments with actionable recommendations.', isMain: true },
 ];
 
 export default function CompetitorTable() {

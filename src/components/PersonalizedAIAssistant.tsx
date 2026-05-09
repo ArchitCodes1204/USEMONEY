@@ -10,6 +10,8 @@ export default function PersonalizedAIAssistant() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [marketStatus, setMarketStatus] = useState<'OPEN' | 'CLOSED'>('CLOSED');
   const [currentTimeStr, setCurrentTimeStr] = useState('');
+  const [dateStr, setDateStr] = useState('');
+  const [dayType, setDayType] = useState('');
 
   useEffect(() => {
     // Market Status Logic (IST)
@@ -23,6 +25,20 @@ export default function PersonalizedAIAssistant() {
         timeZoneName: 'short'
       });
       setCurrentTimeStr(timeFormatter.format(now));
+
+      const dateFormatter = new Intl.DateTimeFormat(undefined, {
+        weekday: 'long',
+        month: 'short',
+        day: 'numeric'
+      });
+      setDateStr(dateFormatter.format(now));
+
+      const localDay = now.getDay();
+      if (localDay === 0 || localDay === 6) {
+        setDayType('Weekend');
+      } else {
+        setDayType('Weekday');
+      }
 
       const istTime = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }));
       const day = istTime.getDay(); // 0 is Sunday, 6 is Saturday
@@ -110,6 +126,18 @@ export default function PersonalizedAIAssistant() {
             marketStatus === 'OPEN' ? "bg-emerald-500 animate-pulse" : "bg-zinc-500"
           )}></span>
           MARKET {marketStatus} {currentTimeStr && <span className="opacity-60 font-mono text-[10px] ml-1">{currentTimeStr}</span>}
+          {dateStr && (
+            <>
+              <span className="opacity-40 mx-2">•</span>
+              <span className="opacity-90">{dateStr}</span>
+            </>
+          )}
+          {dayType && (
+            <>
+              <span className="opacity-40 mx-2">•</span>
+              <span className="opacity-90">{dayType}</span>
+            </>
+          )}
         </div>
         
         <h1 className="text-4xl sm:text-5xl font-semibold text-white tracking-tight mb-4">

@@ -1,38 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💰 UseMoney – Pre-Hire Assignment Submission
 
-## Getting Started
+> A high-fidelity clone and feature extension of usemoney.ai, built as part of the pre-hire assignment.
 
-First, run the development server:
+🔗 Live Demo: https://usemoney-azure.vercel.app/
+📁 Repository: https://github.com/ArchitCodes1204/USEMONEY
 
-```bash
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js 14 | React framework with App Router |
+| TypeScript | Type-safe development |
+| Tailwind CSS | Utility-first styling |
+| Vercel | Deployment & hosting |
+
+---
+
+## 📋 Assignment Deliverables
+
+### 1. 🏆 Competitor Research & Comparison Table
+
+| Product | Market | Key AI Feature | Target Audience |
+|---|---|---|---|
+| INDmoney | 🇮🇳 Indian | All-in-one finance app — tracks net worth, bills, and portfolio automatically | Retail investors & salaried professionals |
+| Moneyview | 🇮🇳 Indian | Tracks expenses via SMS; shows bank balances, UPI spends & credit usage | Budget-conscious users, tier 2/3 cities |
+| ET Money | 🇮🇳 Indian | Mutual funds, insurance, SIPs, loans; tracks spending and financial goals | Goal-based investors |
+| Mint (Intuit) | 🌍 Global | Budgeting app tracking expenses, credit score, bills & budgets | US-based general consumers |
+| UseMoney | 🇮🇳 Indian | Personalized Holistic Wealth AI Chatbot (StockSage, Portfolio Roast, Risk Reports) | Active investors & wealth builders |
+
+---
+
+### 2. 🎨 Sidenav Redesign
+
+Redesigned the side navigation bar with:
+- Cleaner visual hierarchy and grouped sections (Workspace, Discover, Tools, Account)
+- Collapsible sidebar with icon-only mode
+- Active state indicators and smooth hover transitions
+- Better contrast and spacing for improved readability
+
+---
+
+### 3. 🤖 Personalised Chatbot Layer
+
+Designed and implemented a personalised layer for the AI chatbot (StockSage) that includes:
+- User context awareness (name, portfolio data, risk profile)
+- Personalised greeting and suggested prompts based on user history
+- Adaptive response tone based on user expertise level
+
+---
+
+### 4. 🌍 Timezone-Specific Greeting on Login
+
+| Time | Greeting |
+|---|---|
+| 5:00 AM – 11:59 AM | ☀️ Good Morning, [Name]! |
+| 12:00 PM – 4:59 PM | 🌤️ Good Afternoon, [Name]! |
+| 5:00 PM – 8:59 PM | 🌇 Good Evening, [Name]! |
+| 9:00 PM – 4:59 AM | 🌙 Good Night, [Name]! |
+
+New users → "Welcome to UseMoney! Let's start building your financial future."
+Returning users → Personalised greeting with name and quick portfolio snapshot prompt.
+
+---
+
+## 🚀 Getting Started
+
+# Clone the repository
+git clone https://github.com/ArchitCodes1204/USEMONEY.git
+
+# Navigate into the project
+cd USEMONEY
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 👤 Author
 
-## Learn More
+Archit Mamodiya
+Pre-Hire Assignment – UseMoney
+Submitted: May 2026
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# usemoney2
-# USEMONEY
+This project is built solely for evaluation purposes as part of a pre-hire assignment.

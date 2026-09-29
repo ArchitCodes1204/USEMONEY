@@ -46,7 +46,7 @@ Designed and implemented a personalised layer for the AI chatbot (StockSage) tha
 - Personalised greeting and suggested prompts based on user history
 - Adaptive response tone based on user expertise level
 
---
+
 
 ### 4.  Timezone-Specific Greeting on Login
 

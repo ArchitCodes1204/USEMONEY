@@ -88,6 +88,4 @@ Submitted: May 2026
 
 ---
 
-##  License
-
 This project is built solely for evaluation purposes as part of a pre-hire assignment.

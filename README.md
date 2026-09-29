@@ -37,7 +37,7 @@ Redesigned the side navigation bar with:
 - Active state indicators and smooth hover transitions
 - Better contrast and spacing for improved readability
 
---
+-
 
 ### 3.  Personalised Chatbot Layer
 

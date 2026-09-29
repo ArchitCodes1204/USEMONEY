@@ -14,7 +14,7 @@
 | Tailwind CSS | Utility-first styling |
 | Vercel | Deployment & hosting |
 
--
+
 
 ##  Assignment Deliverables
 

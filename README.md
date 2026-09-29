@@ -5,8 +5,6 @@
 🔗 Live Demo: https://usemoney-azure.vercel.app/
 📁 Repository: https://github.com/ArchitCodes1204/USEMONEY
 
----
-
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |

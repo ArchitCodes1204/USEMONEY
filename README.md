@@ -60,7 +60,7 @@ Designed and implemented a personalised layer for the AI chatbot (StockSage) tha
 New users → "Welcome to UseMoney! Let's start building your financial future."
 Returning users → Personalised greeting with name and quick portfolio snapshot prompt.
 
----
+-
 
 ##  Getting Started
 

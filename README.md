@@ -28,7 +28,6 @@
 | Mint (Intuit) |  Global | Budgeting app tracking expenses, credit score, bills & budgets | US-based general consumers |
 | UseMoney |  Indian | Personalized Holistic Wealth AI Chatbot (StockSage, Portfolio Roast, Risk Reports) | Active investors & wealth builders |
 
----
 
 ### 2.  Sidenav Redesign
 
